@@ -1,0 +1,12 @@
+Mettre le chemin de l'endroit ou les élèves doivent mettre leurs fichiers dans le fichier REGLAGES.txt(sans guillemets), un répertoire pour chaque élève sera créé dans ce répertoire
+Faire de même avec le chemin du dossier ou les fichiers assemblés seront stockés (non accessible des élèves)
+Remplir dans le fichier liste.xlsx le "nom prénom" de chaque élève dans la première colonne, ce fichier sera utilisé pour créer les dossiers rapidement
+Lancer le script setup.bat
+Si nécessaire, modifier le fichier en tete.docx, ***nom*** sera remplacé par le nom de la personne et ***date*** par la date à laquelle le script "ajouter rapport du jour" est lancé
+lancer "ajout du jour.bat" à chaque fin de séance pour ajouter la date aux fichiers de chaque élève et les mettre dans le doc du prof
+
+
+
+
+Si le script ne peut pas se lancer taper cette commande en administrateur: Set-ExecutionPolicy RemoteSigned
+et si ca marche toujours pas, changer RemoteSigned par Unrestricted
